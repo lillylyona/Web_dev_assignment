@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #000; 
+    background-color: #F3DFDE !important; 
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Optima', sans-serif; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F3DFDE; /* Light pink color on hover */
+}
+
+.featured-images img {
+    width: 33.333%;
+    height: auto;
+    display: inline-block;
+}
+
+.intro, .services, .booking-cta {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F3DFDE !important;
+    color: #000; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: #f8f6e5 !important;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-item {
+    max-height: 900px; 
+  }
+  
+  
+  .carousel-item img {
+    width: auto; 
+    max-height: 100%; 
+    object-fit: contain; 
+    margin: auto; 
+  }
+  
+
+  .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 4%; 
+  }
+  
+/* Styles for About My Work Section */
+.about-my-work {
+    padding: 2rem;
+    text-align: center; 
+}
+
+/* Styles for Beautician Info Section */
+.beautician-info {
+    text-align: center; 
+    padding: 2rem;
+}
+
+.beautician-info img {
+    display: block;
+    margin: 0 auto; 
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+
+/* Styles for Services Info Section */
+.services-info {
+    background-color: #ffffff ;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2rem;
+    text-align: center; 
+}
+
+.services-info .services-description {
+    flex-basis: 50%; 
+}
+
+.services-info img {
+    flex-basis: 25%; 
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+/* Services Information Section styles */
+.services-info {
+    padding: 2rem 0;
+  }
+  
+  .services-info .row {
+    text-align: center; 
+  }
+  
+  .services-info h2 {
+    margin-bottom: 1rem;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  /*Styles for services page*/
+
+main {
+    padding: 20px;
+}
+
+.service-offerings{
+    margin: 20px 0;
+}
+
+.service-offerings .row {
+    margin-bottom: 20px;
+}
+
+.service-offerings img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.service-offerings h2{
+    margin-bottom: 20px;
+}
+
+.service-offerings h3{
+    margin-top: 0;
+    color: #333;
+}
+
+.service-offerings p{
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/*about page*/
+
+
+.about-us {
+    background-color: #F3DFDE; 
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-us h2 {
+    margin-bottom: 1rem;
+}
+
+.get-in-touch-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8F6E5; 
+    color: #e7a2a1 ;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.get-in-touch-btn:hover {
+    background-color: #e7a2a1 ; 
+    color: #F8F6E5;
+}
+
+
+
+
